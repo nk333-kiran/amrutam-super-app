@@ -1,5 +1,8 @@
 import { registerRootComponent } from 'expo';
 
+// Setup development warning filters early
+import './src/setupWarnings';
+
 import App from './App';
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);

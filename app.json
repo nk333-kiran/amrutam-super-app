@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "assignment",
+    "name": "Amrutam Super App",
     "slug": "assignment",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,6 +10,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.navaneeth.amrutam",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -20,6 +21,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "af7871c7-e8c4-42e7-b23c-441edd644373"
+      }
     }
   }
 }
